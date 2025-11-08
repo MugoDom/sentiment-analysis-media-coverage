@@ -3,6 +3,8 @@
 .env
 .ipynb_checkpoints/
 __pycache__/
+anaconda_projects/
+.virtual_documents/
 
 # data (keep the tree but ignore content)
 data/*
