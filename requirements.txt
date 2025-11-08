@@ -1,0 +1,20 @@
+pandas>=2.2
+pyarrow>=16
+numpy>=1.26
+tqdm>=4.66
+matplotlib>=3.8
+seaborn>=0.13
+
+# NLP
+nltk>=3.9
+vaderSentiment>=3.3.2
+spacy>=3.7
+textacy>=0.13
+
+# HF transformers (CPU ok; for Apple/Windows/Linux)
+transformers>=4.44
+torch>=2.2
+
+# lint/format (optional)
+ruff>=0.6
+black>=24.8

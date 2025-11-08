@@ -1,0 +1,15 @@
+# envs
+.venv/
+.env
+.ipynb_checkpoints/
+__pycache__/
+
+# data (keep the tree but ignore content)
+data/*
+!data/.gitkeep
+!data/raw/
+!data/interim/
+!data/processed/
+
+# OS
+.DS_Store

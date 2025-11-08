@@ -1,0 +1,9 @@
+text_column_priority:
+  - bodyText
+  - trailText
+  - headline
+
+min_chars: 200            # drop super short texts
+sample_size: null         # set to an int for quick tests, e.g., 5000
+transformer_model: "cardiffnlp/twitter-roberta-base-sentiment-latest"
+batch_size: 16
